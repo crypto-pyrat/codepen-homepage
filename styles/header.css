@@ -1,0 +1,81 @@
+.nav-wrapper {
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+.nav-wrapper > .left-nav-block > .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.nav-wrapper > .left-nav-block img {
+    width: 390px;
+    height: 50px;
+}
+
+.nav-wrapper > .left-nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-wrapper > .right-nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-wrapper > .right-nav-block > .login-signup-container > .sign-up a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-wrapper > .right-nav-block > .login-signup-container > .log-in a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-wrapper > .right-nav-block > .login-signup-container > .sign-up {
+    border: 1px solid grey;
+    height: 78px;
+    width: 147px;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+    color: white;
+    background-color: gray;
+    border-radius: 4px;
+    font-size: 1.7em;
+}
+
+.nav-wrapper > .right-nav-block > .login-signup-container > .log-in {
+    border: 1px solid grey;
+    height: 78px;
+    width: 147px;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+    color: white;
+    background-color: gray;
+    border-radius: 4px;
+    font-size: 1.7em;
+}
+
+.nav-wrapper > .right-nav-block > .login-signup-container {
+    display: flex;
+    width: 330px;
+    justify-content: space-around;
+}

@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    height: 100px;
+    background-color: #414546;
+    color: white;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    
+}
+
+.footer > .codepen-box {
+    font-size: 1.3em;
+    border: 3px solid grey;
+    height: 95px;
+    width: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+}
+
+.footer > .codepen-box span {
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
